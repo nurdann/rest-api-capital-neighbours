@@ -2,7 +2,7 @@ from xlrd import open_workbook
 import json
 import sys
 
-# incorporated from https://zetcode.com/python/openpyxl/
+# incorporated from https://stackoverflow.com/a/23568655
 if __name__ == '__main__':
     json_data = {}
     book = open_workbook(sys.argv[1], 'r')
