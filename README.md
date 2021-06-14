@@ -34,3 +34,5 @@ Then feed the `.xls` file to generate dictionary of code to country names as fol
 ```
 python3 cvsToJson.py iso_3digit_alpha_country_codes.xls 
 ```
+
+However, since I am not using NodeJS server I have included the object map inside the script file.
